@@ -1,4 +1,5 @@
 Chức năng 1:
+
 1 dòng lệch duy nhất tạo thư mục:
  
 'docs', 'scripts', 'data', 'backup' | ForEach-Object {New-Item -p "smartfarm-system\$_" -ItemType Directory -Force }
